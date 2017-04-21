@@ -1,0 +1,37 @@
+.invoice {
+
+  &-form {
+
+  }
+
+  &-items {
+    &__add-form {
+      .button.add {
+        margin-top: 19px;
+      }
+    }
+    &__products {
+
+      .row {
+        position: relative;
+      }
+
+      &__delete-button {
+        position: absolute;
+        top: auto;
+        right: 0;
+        bottom: 5px;
+        left: auto;
+        width: 36px;
+
+      }
+
+      &-form {
+        @include clearfix;
+        margin-right: 36px;
+      }
+
+    }
+  }
+
+}
